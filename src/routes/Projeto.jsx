@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Modal, Button } from "react-bootstrap";
 import MapaGoogle from "../componentes/MapaGoogle";
+import "../scss/Projeto.css";
 
 function Projeto() {
   const [inputValue, setInputValue] = useState("");
@@ -134,7 +135,7 @@ function Projeto() {
           <p>O CEP digitado não foi encontrado. Por favor, use outro ou tente novamente.</p>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={() => setShowModal(false)}>
+          <Button class="btn btn-warning" variant="secondary" onClick={() => setShowModal(false)}>
             Fechar
           </Button>
         </Modal.Footer>
