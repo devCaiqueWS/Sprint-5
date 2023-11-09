@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import "../scss/Nav.css";
 import "../css/Nav.css";
 import "../mediaQuery/Nav-media.css";
 import logo from "../assets/logo-alerta-enchente.png";
